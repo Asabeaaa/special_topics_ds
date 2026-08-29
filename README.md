@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository tracks the for Special Topics in Data Science coursework, which is centered on hands-on work with Hugging Face and Transformer models
+This repository tracks the Special Topics in Data Science coursework, which is centered on hands-on work with Hugging Face and Transformer models
 
 
 Deliverables include:
