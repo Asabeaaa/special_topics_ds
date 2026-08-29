@@ -1,52 +1,59 @@
-# Special Training
-# Special Training
+# Special Topics in Data Science
 
-This workspace contains a lightweight setup for Data Science and Hugging Face workflows (RAG, embeddings, fine-tuning). It includes a `requirement.txt` with commonly-used packages and instructions to reproduce the environment locally.
+## Overview
 
-**Quick summary**:
-- **Purpose:** Data science experiments, Jupyter notebooks, Hugging Face models, embeddings, and RAG prototypes.
-- **Python:** Tested with Python 3.10+ (this workspace used Python 3.14).
-- **Requirements file:** `requirement.txt`
+This repository tracks the for Special Topics in Data Science coursework, which is centered on hands-on work with Hugging Face and Transformer models
 
-**Install (recommended: virtual environment)**
 
-PowerShell / Windows (recommended):
+Deliverables include:
+- **Summarisation** - reducing longer text to a shorter version while keeping the key points
+- **Image Processing** - tasks such as image classification or image-to-text
+- **Sentiment Analysis** - labelling text as positive, negative, or neutral
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirement.txt
-```
+## Objectives
 
-Or using a specific Python executable:
+- Set up and use a Hugging Face account, and explore models on the Hugging Face Hub.
+- Learn to read and interpret Hugging Face model cards.
+- Compare Transformer architectures to identify which tasks each model targets.
+- Compare sizes and versions within the Qwen model family and choose one suited to this project.
+- Install and get familiar with Ollama for local model inference, installing carefully and avoiding pulling models before confirming what's actually needed.
+- Favor smaller models when hardware, bandwidth, or download limits make larger ones impractical.
+- Apply three different models to three different tasks: summarization, image processing, and sentiment analysis.
+- Document model choices, experiments, challenges, and findings as the project develops.
 
-```powershell
-C:/Users/narte/AppData/Local/Python/pythoncore-3.14-64/python.exe -m pip install -r requirement.txt
-```
+## Project Dependencies
+The initial environment includes libraries for general data science, machine learning, natural language processing, deep learning, embeddings, fine-tuning and retrieval-augmented generation (RAG) as provided.
 
-**Create Jupyter kernel (optional)**
+- General Data Science
+NumPy
+Pandas
+Matplotlib
+Scikit-learn
 
-```powershell
-python -m ipykernel install --user --name special-training --display-name "Python (special-training)"
-```
+- Jupyter
+Jupyter
+IPykernel
 
-**Quick verification**
+- Hugging Face and Transformers
+PyTorch
+Transformers
+Datasets
+Hugging Face Hub
+Accelerate
+Evaluate
 
-Run a short import check to confirm critical packages are available:
+- Embeddings
+Sentence Transformers
 
-```powershell
-python -c "import sys; import numpy, pandas, matplotlib, sklearn, torch; print('imports OK', sys.version)"]
-```
+- Fine-Tuning
+PEFT
+TRL
 
-If you plan to use GPU for PyTorch, ensure the appropriate CUDA/cuDNN drivers are installed and install a matching `torch` wheel from the official PyTorch instructions: https://pytorch.org/get-started/locally/
+- Retrieval-Augmented Generation
+LangChain
+LangChain Community
+ChromaDB
+PyPDF
 
-**Notes & tips**
-- If you prefer reproducible dependency locking, create a `requirements.txt` with pinned versions or use `pip-tools` / `poetry` / `pipenv`.
-- Some packages (e.g., `chromadb`, `modal`, GPU-enabled `torch`) may require system-level dependencies or optional extras.
-- For large-model training and fine-tuning, consider using cloud instances with sufficient RAM/GPUs or services like Hugging Face Infinity / Modal.
-
-**Files**
-- `requirement.txt`: package list used for this workspace.
-
-If you want, I can: create a virtual environment for you, pin package versions, or add a small example notebook to exercise the installed libraries—which should I do next?
+- Modal
+Modal
