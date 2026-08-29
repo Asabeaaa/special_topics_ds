@@ -5,7 +5,7 @@
 This repository tracks the Special Topics in Data Science coursework, which is centered on hands-on work with Hugging Face and Transformer models
 
 
-Deliverables include:
+Deliverables include three different models to solve three different tasks:
 - **Summarisation** - reducing longer text to a shorter version while keeping the key points
 - **Image Processing** - tasks such as image classification or image-to-text
 - **Sentiment Analysis** - labelling text as positive, negative, or neutral
