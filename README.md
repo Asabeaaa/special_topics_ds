@@ -24,36 +24,36 @@ This repository tracks the Special Topics in Data Science coursework, which is c
 ## Project Dependencies
 The initial environment includes libraries for general data science, machine learning, natural language processing, deep learning, embeddings, fine-tuning and retrieval-augmented generation (RAG) as provided.
 
-- General Data Science
-NumPy
-Pandas
-Matplotlib
-Scikit-learn
+**General Data Science**
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
 
+**Jupyter**
 - Jupyter
-Jupyter
-IPykernel
+- IPykernel
 
-- Hugging Face and Transformers
-PyTorch
-Transformers
-Datasets
-Hugging Face Hub
-Accelerate
-Evaluate
+**Hugging Face and Transformers**
+- PyTorch
+- Transformers
+- Datasets
+- Hugging Face Hub
+- Accelerate
+- Evaluate
 
-- Embeddings
-Sentence Transformers
+**Embeddings**
+- Sentence Transformers
 
-- Fine-Tuning
-PEFT
-TRL
+**Fine-Tuning**
+- PEFT
+- TRL
 
-- Retrieval-Augmented Generation
-LangChain
-LangChain Community
-ChromaDB
-PyPDF
+**Retrieval-Augmented Generation**
+- LangChain
+- LangChain Community
+- ChromaDB
+- PyPDF
 
+**Modal**
 - Modal
-Modal
