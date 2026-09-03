@@ -1,0 +1,5 @@
+Overfitting refers to a situation where a machine learning model learns the training data too well, capturing its noise and idiosyncrasies rather than the 
+underlying pattern. This results in poor generalization to new, unseen data. The bias-variance tradeoff is a fundamental concept that shows the error of a 
+model is a sum of bias (simplicity of the model), variance (model's sensitivity to the training data), and irreducible error (noise in the data). To avoid 
+overfitting, we often increase model complexity (lower bias, but potentially higher variance), use regularization techniques, or collect more diverse 
+training data (reduce variance). Striking the right balance between bias and variance is crucial for building effective models.

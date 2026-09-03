@@ -1,0 +1,5 @@
+In machine learning, overfitting occurs when a model learns the detail and noise in the training data to the extent that it negatively impacts the 
+performance on new data. Imagine you're trying to predict the weather using a model that's so good at remembering every weather pattern you've ever 
+experienced that it starts to predict the weather for your shower. The model can be perfect at remembering past showers but poorly at predicting when 
+you'll actually shower. To reduce overfitting, you should use techniques like cross-validation, early stopping, or simplifying the model's complexity to 
+ensure it generalizes well to unseen data.

@@ -1,0 +1,8 @@
+Overfitting in machine learning is akin to a student who memorizes every detail of a textbook rather than understanding its concepts. This student can 
+answer any question about the textbook precisely but fails to answer new questions or apply the knowledge to real-world problems. In machine learning, 
+overfitting occurs when a model learns the noise in the training data instead of the underlying patterns, resulting in poor generalization to new, unseen 
+data.
+
+To reduce overfitting, one common approach is to use Regularization, which adds a penalty term to the loss function to discourage complex models from 
+learning the noise in the training data. This is like a teacher giving the student a difficult assignment that requires understanding the concepts rather 
+than memorization, thereby improving the student's ability to solve new problems.
