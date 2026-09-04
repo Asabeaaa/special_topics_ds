@@ -1,3 +1,0 @@
-Overfitting occurs when a model learns the training data too well, capturing its noise rather than the underlying pattern. This results in poor 
-generalization to new, unseen data. In simpler terms, it's like memorizing a set of answers for a test instead of understanding the concepts, leading to 
-poor performance on new questions. To avoid overfitting, techniques like cross-validation, regularization, and using simpler models can be employed.

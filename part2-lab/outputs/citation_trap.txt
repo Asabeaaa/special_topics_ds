@@ -1,0 +1,31 @@
+ 1. "Attention is All You Need" by Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Lluanne Gomez, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, and Sergey 
+Tenenbaum (2017)
+
+   Title: Attention is All You Need
+   Authors: Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., Polosukhin, I., & Tenenbaum, S.
+   Year: 2017
+
+2. "Transformer-XL: Longer, Faster, Better Models for Long Sequences" by Raffael Dagen, Jianfeng Gao, Yotam Mann, and Percy Liang (2019)
+
+   Title: Transformer-XL: Longer, Faster, Better Models for Long Sequences
+   Authors: Dagen, R., Gao, J., Mann, Y., & Liang, P.
+   Year: 2019
+
+3. "RoBERTA: A Robustly Optimized BERT Pretraining Approach" by Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke 
+Zettlemoyer, and Mark Neumann (2019)
+
+   Title: RoBERTA: A Robustly Optimized BERT Pretraining Approach
+   Authors: Liu, Y., Ott, M., Goyal, N., Du, J., Joshi, M., Chen, D., Levy, O., Lewis, M., Zettlemoyer, L., & Neumann, M.
+   Year: 2019
+
+4. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" by Jacob Devlin, Myle Ott, Morris Peled, Omer Levy, and Dan Goldwasser (2019)
+
+   Title: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+   Authors: Devlin, J., Ott, M., Peled, M., Levy, O., & Goldwasser, D.
+   Year: 2019
+
+5. "Longformer: The Long Document Transformer" by Aidan N. Gomez, Mohammad Saleh, Lana K. Kireeva, Lukasz Kaiser, Sanjeev Khudanpur, and Percy Liang (2020)
+
+   Title: Longformer: The Long Document Transformer
+   Authors: Gomez, A. N., Saleh, M., Kireeva, L. K., Kaiser, L., Khudanpur, S., & Liang, P.
+   Year: 2020

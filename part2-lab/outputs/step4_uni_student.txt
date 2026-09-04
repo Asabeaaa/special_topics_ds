@@ -1,0 +1,3 @@
+Overfitting occurs when a model is excessively complex, fitting not only the underlying data patterns but also the noise or random fluctuations, 
+resulting in poor generalization to new, unseen data. This issue can be mitigated through regularization, cross-validation, or simplifying the 
+model to ensure it can accurately capture the essential data patterns. It's crucial to balance model complexity and fit to avoid overfitting.

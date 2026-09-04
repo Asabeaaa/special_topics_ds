@@ -1,5 +1,10 @@
-## Step 1: Install and verify Ollama
+# Meet the Machines: Ollama, Hugging Face, and Critical Comparison
 
+## Overview
+This lab is to help with initial set up and exploration of Ollama and Hugging Face. Ollama is a free, open-source platform used to download, run, and manage large language models (LLMs) directly on your local computer, while hugging face is an open-source platform and central hub used to discover, share, train, and deploy artificial intelligence and machine learning models. Here we understand how to read model cards and select the
+best models to work with based on computing resources, memory and processing power needed to run or train it. We also explore the performance of various models with the same prompt or when there is an audience shift
+
+## Step 1: Install and verify Ollama
 | Field                                | Your answer       | 
 | ------------------------------------ | ----------------- |
 | Model pulled                         | llama3.2          |
@@ -7,10 +12,7 @@
 | Screenshot filename                  |                   |
 
 
-
 ## Step 2: Explore Hugging Face like an engineer
-
-
 | Field | Model 1 | Model 2 | Model 3 |
 |---|---|---|---|
 | Full name and URL | meta-llama/Llama-3.2-3B-Instruct<br>https://huggingface.co/meta-llama/Llama-3.2-3B-Instruct | mistralai/Mistral-7B-Instruct-v0.3<br>https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3 | Qwen/Qwen2.5-1.5B-Instruct<br>https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct |
@@ -29,10 +31,11 @@ owned by Meta embodied in the Llama Materials to use, reproduce, distribute, cop
 of, and make modifications to the Llama Materials.). While Mistral and Qwen have the Apache 2.0 licence which allows for unrestricted commercial use. (Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.)
 
 2. Which model fits a student laptop best for local experiments? Why?
-Qwen2.5-1.5B-Instruct fits best because it has only 1.54B parameters which makes it the smallest of the three models. A smaller model generally requires fewer computing resources
+Qwen2.5-1.5B-Instruct fits best because it has only 1.54B parameters and 986 MB in size, which makes it the smallest of the three models. A smaller model generally requires fewer computing resources, memory and processing power needed to run or train it.
 
 3. What is one risk mentioned in a model card that you had not thought about before?
-Llama 3.2’s potential outputs cannot be predicted in advance. I'm wondering how reliable that makes it.
+Llama 3.2’s potential outputs cannot be predicted in advance and it may produce inaccurate, biased, or otherwise objectionable responses. I'm wondering how reliable that makes it if it's behaviour is unpredictable.
+It also mentioned the model is supposed to be deployed as part of an overall AI system with additional safety guardrails as required and it is the developers responsibility to ensure that. Is that what people see as the AI model going rogue?
 
 
 ## Step 3: The same prompt experiment
@@ -42,22 +45,75 @@ Llama 3.2’s potential outputs cannot be predicted in advance. I'm wondering ho
 | B | Ollama (different model) | mistral:7b-instruct |
 | C | Third system | qwen2.5:1.5b-instruct |
 
+Explain overfitting in machine learning using a real-world analogy. Include one sentence on how to reduce it. Keep the answer under 150 words.
 
-Run A was the fastest, followed by B and C
+Run A = 3 secs
+Run B = 4 secs
+Run C = 1 sec
 
 | Criterion                         | Run A | Run B | Run C |
 |-----------------------------------|-------|-------|-------|
-| Accuracy (is the ML idea correct?) |  4     |   5    |    5   |
+| Accuracy (is the ML idea correct?) |  5     |   5    |    3   |
 | Clarity (would a classmate understand?) |   5    |    5   |   4    |
-| Completeness (analogy + reduction tip?) |   5    |    5   |    5   |
-| Respects ~150 word limit          |   5    |   5    |   5   |
-| Overall                           |   19    |    20   |   19    |
+| Completeness (analogy + reduction tip?) |   5    |    5   |    4   |
+| Respects ~150 word limit          |   5    |   5    |   5   | 
+| Overall                           |   20    |    20   |   16   |
+
+Best model(Run B) - mistral:7b-instruct - the clarity and accuracy with how it explained the concept. It explained the poor performance on unseen data clearly and gave an explanation on how increasing the training data helps with overfitting.
 
 
-## Step 4: Audience shift experiment
-Best model - mistral:7b-instruct 
+## Step 4: Audience shift experiment - usinf the best model
 | Prompt | What changed besides vocabulary? | New factual claim? | Trust it? |
 |---|---|---|---|
-| Child | Simplifies the explanation and uses a student/test-book analogy. It also adds the idea of finding a balance when fitting the data. | No significant new factual claim. | Yes |
-| Student | Adds specific techniques for avoiding overfitting: cross-validation, regularization, and simpler models. | Yes. These are factual claims about techniques used to reduce overfitting. | Yes |
-| Researcher | Adds the bias-variance tradeoff, explains bias, variance, and irreducible error, and suggests collecting more diverse data to reduce variance. | Yes. It introduces several additional technical claims. | Mostly yes, but the claim that irreducible error is simply “noise in the data” is an oversimplification. |
+| Child | Simplifies the explanation but still sounds high level for a 12 year old. | No new factual claim. | Yes |
+| Student | Adds specific techniques for avoiding overfitting like cross-validation, regularization, and simpler models. | Yes. These are factual claims about techniques used to reduce overfitting. | Yes |
+| Researcher | Adds the bias-variance tradeoff, explains bias, variance | Yes. It introduces additional factual technical claims. | Yes |
+
+
+For the child response (outputs/step4_child.txt) I will change "In machine learning, a model can learn too much from the training data and perform poorly on new, unseen data.It's important to find a balance so the model can learn well but not too much"  to "The goal is to focus on the general features instead of highlighting every little detail." which follows the drawing analogy and substitutes all the technical words for everyday language for a 12 year old
+
+
+## Step 5: Reliability and hallucination hunt
+Verifiable fact test
+
+| Model output | Your verification source | Verdict (correct / incorrect / ambiguous) |
+|---|---|---|
+|  Canberra  | Google | correct |
+
+
+Citation trap
+
+| Title (as model gave it) | Exists? | Authors match? | Notes |
+|---|---|---|---|
+| Attention is All You Need  | Yes | All but 1  | S. Tenenbaum is not an authur on this paper |
+| Transformer-XL: Longer, Faster, Better Models for Long Sequences | Yes but the title is incorrect | No | Title is Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context and the authurs are Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, and Ruslan Salakhutdinov |
+| RoBERTA: A Robustly Optimized BERT Pretraining Approach | Yes | All but 1 | The correct name is Veselin Stoyanov not Mark Neumann |
+
+
+Code sanity check
+
+| Check | Result |
+|---|---|
+| Runs without syntax error? | Yes |
+| Formula looks correct? | Yes |
+| Any invented NumPy functions? | No |
+
+
+## Step 6: Toolchain reflection
+1. Ollama:
+
+What worked well?: I could test models such as Llama, Mistral, and Qwen locally and run comparisons on their outputs easily.
+What frustrated you?: I couldn't immediately find the models I was reviewing on Hugging face on Ollama. Especially when trying to find the exact versions.
+
+2. Hugging Face: What would you check before using a model in a client project?
+
+I would check its license to make sure commercial use is allowed. I would also check the model's intended use, limitations, supported languages, and parameter size. I would review the model card to understand how the model was trained and any known risks or limitations. I would also test the model with relevant data to see whether its performance is suitable for the project.
+
+3. Modal (conceptual): Describe one task from this lab that would not run well on your laptop but would need a cloud GPU.
+
+Running or fine-tuning a large language model. Larger models require a lot of memory and computing power, especially when training or fine-tuning them. A cloud GPU would provide the processing power and memory needed to run the model efficiently. Allowing the task to complete much faster than it would on my laptop.
+
+4. Trust:  
+
+Under what conditions would you trust output from your local Ollama model without verification?: When it is being used for simple tasks such as brainstorming, rewriting text, explaining basic concepts that I already understand or if I asked the model for an opinion. For important factual information, I would verify the output against reliable sources. 
+Under what conditions would you never?: For medical, legal, financial, any information where specific facts, statistics, citations, claims are provided or for any other high-stakes decisions.
