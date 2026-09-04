@@ -120,3 +120,8 @@ Running or fine-tuning a large language model. Larger models require a lot of me
 
 Under what conditions would you trust output from your local Ollama model without verification?: When it is being used for simple tasks such as brainstorming, rewriting text, explaining basic concepts that I already understand or if I asked the model for an opinion. For important factual information, I would verify the output against reliable sources. 
 Under what conditions would you never?: For medical, legal, financial, any information where specific facts, statistics, citations, claims are provided or for any other high-stakes decisions.
+
+
+## Defrief
+The models (Llama, Mistral) when answering general knowledge questions and definitions of data science concepts were more factual, except Qwen that was confident in explaining techniques for reducing overfitting. But when asked to cite research papers Mistral started to hallucinate with the names of authurs and titles of the research papers.
+When working with AI-generated text about content I am not sure of I will always verify because I could have made reference to research papers that didn't exist in important school work or research of my own.
