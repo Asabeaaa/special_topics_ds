@@ -2,7 +2,7 @@
 No
 
 2. What changed in the instructions?
-The instructions became more specific, with s target audience, word limit, role, required topics, practical example, and table format.
+The instructions became more specific, with a target audience, word limit, role, required topics, practical example, and table format.
 
 3. Which response would you use in a course handbook? Which in a primary school leaflet?
 course handbook = prompt 3
