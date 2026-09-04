@@ -3,10 +3,12 @@ Using **llama3.2** to understand how the same model's output changes depending o
 
 
 ## Step 1: Minimal prompt
-**Prompt**
+**Prompt**:
+
 Explain machine learning.
 
-**Output**
+**Output**:
+
 Machine learning (ML) is a subset of artificial intelligence (AI) that involves training algorithms to learn from data, make predictions, and improve their performance over time. The goal of machine learning is to enable computers to automatically improve their performance on a specific task, without being explicitly programmed.
 
 Here's a simplified overview of how machine learning works:
@@ -52,21 +54,25 @@ time. Its applications are diverse and continue to grow, with new use cases emer
 
 
 ## Step 2: Audience and format constraints
-**Prompt**
+**Prompt**:
+
 Explain machine learning to a 12-year-old using a cooking analogy in fewer than 100 words.
 
-**Output**
+**Output**:
+
 Imagine you want to teach a robot to make the perfect chocolate chip cookie. You show it many pictures of cookies and tell it what makes a great cookie (soft center, crunchy edges, etc.). At first, the robot makes some weird cookies, but you keep showing it more pictures and giving it feedback. As the robot practices, it starts to learn from its mistakes and get better and better at making perfect cookies. Machine learning is like teaching the robot to make perfect cookies, but instead of using pictures, it uses data and computers to learn from it.
 
 
 ## Step 3: Role, audience, and structure
-**Prompt**
+**Prompt**:
+
 You are a university lecturer teaching Master's students in Data Science.
 Explain machine learning using a practical example.
 Include supervised, unsupervised and reinforcement learning.
 Use a table.
 
-**Output**
+**Output**:
+
 Welcome, students, to today's lecture on machine learning. Machine learning is a crucial aspect of data science, and I'm excited to dive into a 
 practical example to illustrate the different types of machine learning.
 
