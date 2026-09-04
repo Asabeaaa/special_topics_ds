@@ -9,11 +9,11 @@ Finally, the lab highlights the importance of verifying AI-generated information
 
 
 ## Step 1: Install and verify Ollama
-| Field                                | Your answer       | 
-| ------------------------------------ | ----------------- |
-| Model pulled                         | llama3.2          |
-| Time to first reply (seconds, rough) |less than a second |
-| Screenshot filename                  |                   |
+| Field                                | Your answer                    | 
+| ------------------------------------ | ------------------------------ |
+| Model pulled                         | llama3.2                       |
+| Time to first reply (seconds, rough) |less than a second              |
+| Screenshot filename                  |screenshots/llama_working.png  |
 
 
 ## Step 2: Explore Hugging Face like an engineer
