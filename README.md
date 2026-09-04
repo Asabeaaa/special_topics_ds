@@ -57,3 +57,6 @@ The initial environment includes libraries for general data science, machine lea
 
 **Modal**
 - Modal
+
+
+pandoc Part2_Lab_Log.md -o Part2_Lab_Log.pdf
