@@ -1,8 +1,12 @@
 # Meet the Machines: Ollama, Hugging Face, and Critical Comparison
 
 ## Overview
-This lab is to help with initial set up and exploration of Ollama and Hugging Face. Ollama is a free, open-source platform used to download, run, and manage large language models (LLMs) directly on your local computer, while hugging face is an open-source platform and central hub used to discover, share, train, and deploy artificial intelligence and machine learning models. Here we understand how to read model cards and select the
-best models to work with based on computing resources, memory and processing power needed to run or train it. We also explore the performance of various models with the same prompt or when there is an audience shift
+This lab focuses on the initial setup and exploration of Ollama and Hugging Face. Ollama is a free, open-source platform used to download, run, and manage large language models (LLMs) directly on a local computer, while Hugging Face is an open-source platform and central hub for discovering, sharing, training, and deploying AI and machine learning models.
+
+The lab helps us understand how to read model cards and select suitable models based on available computing resources, memory, and processing power. We also compare different models using the same prompts and observe how their responses change when the audience, role, and format of the prompt change. In addition, we test the reliability of model outputs by verifying factual claims, checking citations and research papers, and reviewing generated code. 
+
+Finally, the lab highlights the importance of verifying AI-generated information, especially when using it for research or other important work.
+
 
 ## Step 1: Install and verify Ollama
 | Field                                | Your answer       | 
