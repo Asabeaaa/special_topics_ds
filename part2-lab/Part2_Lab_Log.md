@@ -25,17 +25,17 @@ best models to work with based on computing resources, memory and processing pow
 
 
 ### Questions
-1. Which model would you not use in a commercial product? Quote the license line that supports your answer.
+1. Which model would you not use in a commercial product? Quote the license line that supports your answer:
 
 All 3 models can be used for commercial purposes. In the Llama intended use cases it cleary states Llama 3.2 is intended for commercial and research use in multiple languages (License Rights and Redistribution. Grant of Rights. You are granted a non-exclusive, worldwide, non-transferable and royalty-free limited license under Meta’s intellectual property or other rights 
 owned by Meta embodied in the Llama Materials to use, reproduce, distribute, copy, create derivative works 
 of, and make modifications to the Llama Materials.). While Mistral and Qwen have the Apache 2.0 licence which allows for unrestricted commercial use. (Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.)
 
-2. Which model fits a student laptop best for local experiments? Why?
+2. Which model fits a student laptop best for local experiments? Why?:
 
 Qwen2.5-1.5B-Instruct fits best because it has only 1.54B parameters and 986 MB in size, which makes it the smallest of the three models. A smaller model generally requires fewer computing resources, memory and processing power needed to run or train it.
 
-3. What is one risk mentioned in a model card that you had not thought about before?
+3. What is one risk mentioned in a model card that you had not thought about before?:
 
 Llama 3.2’s potential outputs cannot be predicted in advance and it may produce inaccurate, biased, or otherwise objectionable responses. I'm wondering how reliable that makes it if it's behaviour is unpredictable.
 It also mentioned the model is supposed to be deployed as part of an overall AI system with additional safety guardrails as required and it is the developers responsibility to ensure that. Is that what people see as the AI model going rogue?
