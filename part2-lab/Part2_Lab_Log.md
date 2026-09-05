@@ -42,7 +42,7 @@ Qwen2.5-1.5B-Instruct fits best because it has only 1.54B parameters and 986 MB 
 3. What is one risk mentioned in a model card that you had not thought about before?:
 
 Llama 3.2’s potential outputs cannot be predicted in advance and it may produce inaccurate, biased, or otherwise objectionable responses. I'm wondering how reliable that makes it if it's behaviour is unpredictable.
-It also mentioned the model is supposed to be deployed as part of an overall AI system with additional safety guardrails as required and it is the developers responsibility to ensure that. Is that what people see as the AI model going rogue?
+It also mentioned the model is supposed to be deployed as part of an overall AI system with additional safety guardrails as required and it is the developers responsibility to ensure that. Is that what people see as the AI model going rogue? When safety guardrails are not enforced by developers?
 
 
 ## Step 3: The same prompt experiment
