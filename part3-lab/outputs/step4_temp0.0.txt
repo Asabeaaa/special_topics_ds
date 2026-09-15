@@ -1,0 +1,43 @@
+Run 1:
+{"model":"llama3.2","created_at":"2026-09-15T17:14:22.833219Z","response":"Here are five research ideas for using AI in university 
+teaching:\n\n1. Investigating the effectiveness of AI-powered adaptive learning systems in improving student outcomes and reducing 
+teacher workload in large-scale online courses.\n2. Developing and evaluating an AI-based tool to provide personalized feedback 
+and suggestions for improving students' writing skills, particularly for those with language learning difficulties.\n3. Exploring 
+the potential of AI-driven virtual teaching assistants to enhance student engagement and motivation in lecture halls, and to 
+identify areas where human instructors can augment AI's capabilities.\n4. Designing and testing an AI-powered platform to facilitate 
+peer review and feedback in group projects, with a focus on promoting more effective collaboration and reducing bias.\n5. Analyzing 
+the impact of AI-generated multimedia content (e.g., videos, podcasts) on student learning outcomes and attitudes towards teaching 
+and learning in higher education.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,
+220,2366,18,271,128009,128006,882,128007,271,32215,7041,4330,12742,3495,6848,369,1701,15592,304,12374,12917,13,5742,1124,220,16,311,
+220,20,13,3861,11914,824,4623,13,128009,128006,78191,128007,271,8586,527,4330,3495,6848,369,1701,15592,304,12374,12917,1473,16,13,
+33180,1113,279,27375,315,15592,41503,48232,6975,6067,304,18899,5575,20124,323,18189,11326,54696,304,3544,13230,2930,14307,627,17,
+13,81745,323,38663,459,15592,6108,5507,311,3493,35649,11302,323,18726,369,18899,4236,6,4477,7512,11,8104,369,1884,449,4221,6975,
+27129,627,18,13,18491,5620,279,4754,315,15592,32505,4200,12917,57619,311,18885,5575,20392,323,25835,304,31678,52473,11,323,311,
+10765,5789,1405,3823,54918,649,49806,15592,596,17357,627,19,13,7127,287,323,7649,459,15592,41503,5452,311,28696,14734,3477,323,
+11302,304,1912,7224,11,449,264,5357,389,22923,810,7524,20632,323,18189,15837,627,20,13,38527,20994,279,5536,315,15592,16581,57613,
+2262,320,68,1326,2637,6946,11,55346,8,389,5575,6975,20124,323,33726,7119,12917,323,6975,304,5190,6873,13],"total_duration":
+5941940750,"load_duration":1891200625,"prompt_eval_count":51,"prompt_eval_cached_count":0,"prompt_eval_duration":102046000,
+"eval_count":169,"eval_duration":3947241000}
+
+
+
+Run 2:
+{"model":"llama3.2","created_at":"2026-09-15T17:17:05.617343Z","response":"Here are five research ideas for using AI in university 
+teaching:\n\n1. Investigating the effectiveness of AI-powered adaptive learning systems in improving student outcomes and reducing 
+teacher workload in large-scale online courses.\n2. Developing and evaluating an AI-based tool to provide personalized feedback and 
+suggestions for improving students' writing skills, particularly for those with language learning difficulties.\n3. Exploring the 
+potential of AI-driven virtual teaching assistants to enhance student engagement and motivation in lecture halls, and to identify 
+areas where human instructors can augment AI's capabilities.\n4. Designing and testing an AI-powered platform to facilitate peer 
+review and feedback in group projects, with a focus on promoting more effective collaboration and reducing bias.\n5. Analyzing the
+impact of AI-generated multimedia content (e.g., videos, podcasts) on student learning outcomes and attitudes towards teaching and 
+learning in higher education.","done":true,"done_reason":"stop","context":[128006,9125,128007,271,38766,1303,33025,2696,25,6790,220,
+2366,18,271,128009,128006,882,128007,271,32215,7041,4330,12742,3495,6848,369,1701,15592,304,12374,12917,13,5742,1124,220,16,311,
+220,20,13,3861,11914,824,4623,13,128009,128006,78191,128007,271,8586,527,4330,3495,6848,369,1701,15592,304,12374,12917,1473,16,13,
+33180,1113,279,27375,315,15592,41503,48232,6975,6067,304,18899,5575,20124,323,18189,11326,54696,304,3544,13230,2930,14307,627,17,
+13,81745,323,38663,459,15592,6108,5507,311,3493,35649,11302,323,18726,369,18899,4236,6,4477,7512,11,8104,369,1884,449,4221,6975,
+27129,627,18,13,18491,5620,279,4754,315,15592,32505,4200,12917,57619,311,18885,5575,20392,323,25835,304,31678,52473,11,323,311,
+10765,5789,1405,3823,54918,649,49806,15592,596,17357,627,19,13,7127,287,323,7649,459,15592,41503,5452,311,28696,14734,3477,323,
+11302,304,1912,7224,11,449,264,5357,389,22923,810,7524,20632,323,18189,15837,627,20,13,38527,20994,279,5536,315,15592,16581,57613,
+2262,320,68,1326,2637,6946,11,55346,8,389,5575,6975,20124,323,33726,7119,12917,323,6975,304,5190,6873,13],"total_duration":
+4274765666,"load_duration":2242666,"prompt_eval_count":51,"prompt_eval_cached_count":50,"prompt_eval_duration":47200000,
+"eval_count":169,"eval_duration":4220225999}

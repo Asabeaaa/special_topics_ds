@@ -1,0 +1,17 @@
+{
+"themes": [
+{"name": "Quality of Lecture Content and Delivery", "quote": "The lecturer explained regression clearly.", "action": "Incorporate interactive 
+sessions or exercises to help students better understand and apply concepts."},
+{"name": "Coursework and Assignments", "quote": "Great course. The assignments were challenging in a good way.", "action": "Maintain challenging 
+assignments, but provide more resources or guidance for complex problems."},
+{"name": "Organizational Aspects", "quote": "The exam schedule was announced late and caused stress.", "action": "Announce exam schedules early 
+to minimize student stress and improve time management."},
+{"name": "Practical Application of Knowledge", "quote": "Too much theory and not enough practical examples.", "action": "Increase the number 
+of practical examples and hands-on exercises in lectures and assignments."},
+{"name": "Support and Resources", "quote": "Tutorial sessions were helpful for understanding Python.", "action": "Offer more tutorial sessions 
+or create additional resources to help students struggling with specific topics or concepts."},
+{"name": "Confusion and Learning Gaps", "quote": "I still do not understand cross-validation after the lecture.", "action": "Revisit complex 
+topics like cross-validation multiple times in lectures and assignments to ensure all students have a thorough understanding."}
+],
+"overall_sentiment": "mixed"
+}

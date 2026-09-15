@@ -1,0 +1,27 @@
+Top 3 Themes:
+
+1. Quality of Lecture Content and Delivery
+   - "The lecturer explained regression clearly."
+   - Incorporate interactive sessions or exercises to help students better understand and apply concepts.
+
+2. Coursework and Assignments
+   - "Great course. The assignments were challenging in a good way."
+   - Maintain challenging assignments, but provide more resources or guidance for complex problems.
+
+3. Organizational Aspects
+   - "The exam schedule was announced late and caused stress."
+   - Announce exam schedules early to minimize student stress and improve time management.
+
+Additional Themes:
+
+4. Practical Application of Knowledge
+   - "Too much theory and not enough practical examples."
+   - Increase the number of practical examples and hands-on exercises in lectures and assignments.
+
+5. Support and Resources
+   - "Tutorial sessions were helpful for understanding Python."
+   - Offer more tutorial sessions or create additional resources to help students struggling with specific topics or concepts.
+
+6. Confusion and Learning Gaps
+   - "I still do not understand cross-validation after the lecture."
+   - Revisit complex topics like cross-validation multiple times in lectures and assignments to ensure all students have a thorough understanding.

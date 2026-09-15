@@ -1,0 +1,47 @@
+1.
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Text: "The lecturer was excellent."
+Reply with only the label.
+
+Response:
+Positive
+
+2.
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Text: "The course was terrible."
+Reply with only the label.
+
+Response:
+Negative
+
+3.
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Text: "The exam was yesterday."
+Reply with only the label.
+
+Response:
+Neutral
+
+4.
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Text: "Best module I have taken this year."
+Reply with only the label.
+
+Response:
+Positive
+
+5.
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Text: "The marking rubric was unclear."
+Reply with only the label.
+
+Response:
+Negative
+
+6.
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Text: "Lectures are on Tuesdays."
+Reply with only the label.
+
+Response:
+Neutral

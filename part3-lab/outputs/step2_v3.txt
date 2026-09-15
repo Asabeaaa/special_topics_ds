@@ -1,0 +1,18 @@
+Analyzing the feedback, it appears that the course has received a mix of positive and constructive criticism.
+
+Positive Feedback:
+1. The lecturer was praised for their ability to explain regression clearly.
+2. The assignments were considered challenging in a good way, indicating they were engaging and stimulating.
+3. Tutorial sessions were found helpful for understanding Python.
+
+Constructive Criticism:
+1. The lab sessions were too short, indicating a need for more practical time for students to apply their knowledge.
+2. There was a request for more practical examples to accompany the theory, which could aid understanding and engagement.
+3. The exam schedule was announced late, causing stress among students. This suggests that better communication and earlier announcement of 
+exam schedules would be appreciated.
+4. Some students are still struggling to understand cross-validation, which might indicate a need for further explanation or additional 
+resources.
+
+Overall, it seems that the course has been well-received but there are areas for improvement, particularly in terms of lab time, practical 
+examples, and communication of exam schedules. It's also important to address the issue of cross-validation to ensure all students understand 
+this crucial concept.

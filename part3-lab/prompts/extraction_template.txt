@@ -1,0 +1,7 @@
+Extract the person's details from the text below.
+Return valid JSON only. No markdown fences. No explanation.
+Use exactly these keys: name, age, occupation, city, research_area.
+
+
+Text:
+John Smith is a 35-year-old Data Scientist living in Kigali and working in AI research on crop yield prediction.

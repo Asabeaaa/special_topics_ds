@@ -1,0 +1,18 @@
+Based on the feedback, it appears that the course has a mix of positive and constructive suggestions for improvement. Here's a summary:
+
+1. Regression was well-explained, but the lab sessions could be longer.
+2. Students appreciate the challenging assignments.
+3. The exam schedule being announced late caused stress among students.
+4. Tutorial sessions have been helpful for understanding Python.
+5. There's a need for more practical examples and less theory.
+6. Some students are still struggling to understand cross-validation after the lecture.
+
+To improve the course, the following actions could be considered:
+
+1. Extend lab sessions or provide additional resources for practice.
+2. Maintain a consistent exam schedule to reduce stress levels.
+3. Balance theory and practical examples in the curriculum.
+4. Offer additional support or resources for students who are still struggling with cross-validation.
+
+Overall, the feedback suggests that the course content is generally well-received, but there are areas where improvements can be made to enhance 
+the student learning experience.

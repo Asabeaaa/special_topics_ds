@@ -1,0 +1,60 @@
+1. 
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Examples:
+Text: "The movie was fantastic." → Positive
+Text: "The service was terrible." → Negative
+Text: "The product arrived yesterday." → Neutral
+Now classify:
+Text: "The lecturer was excellent."
+Reply with only the label.
+
+2. 
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Examples:
+Text: "The movie was fantastic." → Positive
+Text: "The service was terrible." → Negative
+Text: "The product arrived yesterday." → Neutral
+Now classify:
+Text: "The course was terrible."
+Reply with only the label.
+
+3. 
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Examples:
+Text: "The movie was fantastic." → Positive
+Text: "The service was terrible." → Negative
+Text: "The product arrived yesterday." → Neutral
+Now classify:
+Text: "The exam was yesterday."
+Reply with only the label.
+
+4. 
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Examples:
+Text: "The movie was fantastic." → Positive
+Text: "The service was terrible." → Negative
+Text: "The product arrived yesterday." → Neutral
+Now classify:
+Text: "Best module I have taken this year."
+Reply with only the label.
+
+5. 
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Examples:
+Text: "The movie was fantastic." → Positive
+Text: "The service was terrible." → Negative
+Text: "The product arrived yesterday." → Neutral
+Now classify:
+Text: "The marking rubric was unclear."
+Reply with only the label.
+
+6. 
+Classify the sentiment as exactly one of: Positive, Negative, Neutral.
+Examples:
+Text: "The movie was fantastic." → Positive
+Text: "The service was terrible." → Negative
+Text: "The product arrived yesterday." → Neutral
+Now classify:
+Text: "Lectures are on Tuesdays."
+Reply with only the label.
+

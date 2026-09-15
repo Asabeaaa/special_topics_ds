@@ -1,0 +1,32 @@
+The top three themes from the feedback are:
+
+1. Quality of Lecture Content and Delivery:
+   Quote: "The lecturer explained regression clearly." (Feedback 1)
+   Practical Improvement: Consider adding more interactive sessions or exercises to help students better understand and apply the concepts covered 
+   in lectures.
+
+2. Coursework and Assignments:
+   Quote: "Great course. The assignments were challenging in a good way." (Feedback 2)
+   Practical Improvement: Maintain the level of challenge in the assignments, but also consider providing more resources or guidance to help 
+   students tackle the more complex problems.
+
+3. Organizational Aspects:
+   Quote: "The exam schedule was announced late and caused stress." (Feedback 3)
+   Practical Improvement: Announce exam schedules as early as possible to minimize student stress and allow for better time management.
+
+Additional themes:
+
+4. Practical Application of Knowledge:
+   Quote: "Too much theory and not enough practical examples." (Feedback 5)
+   Practical Improvement: Increase the number of practical examples and hands-on exercises in the lectures and assignments to help students 
+   better understand and apply the theoretical concepts.
+
+5. Support and Resources:
+   Quote: "Tutorial sessions were helpful for understanding Python." (Feedback 4)
+   Practical Improvement: Offer more tutorial sessions or create additional resources to help students who may be struggling with specific topics 
+   or concepts.
+
+6. Confusion and Learning Gaps:
+   Quote: "I still do not understand cross-validation after the lecture." (Feedback 6)
+   Practical Improvement: Consider revisiting complex topics, like cross-validation, multiple times in the lectures and assignments to ensure 
+   that all students have a thorough understanding of the concept.

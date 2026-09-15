@@ -1,0 +1,23 @@
+Based on the feedback provided, it appears that the course has received generally positive feedback, but there are areas for improvement.
+
+Feedback 1 suggests that the lecturer did a good job explaining regression, but the lab sessions were too short. To address this, the duration of 
+lab sessions could be increased or additional resources could be provided for students to practice outside of lab time.
+
+Feedback 2 indicates that the assignments were challenging, which is generally a good thing as it helps students to learn and develop their skills. 
+However, it may be worth considering providing additional support or resources to help students who are struggling with the assignments.
+
+Feedback 3 highlights a problem with the late announcement of exam schedules, which can cause stress for students. To address this, it would be 
+beneficial to announce exam schedules as early as possible to give students plenty of time to prepare.
+
+Feedback 4 suggests that the tutorial sessions were helpful for understanding Python, so it may be worth considering increasing the number or 
+duration of tutorial sessions or making them mandatory for all students.
+
+Feedback 5 indicates a need for more practical examples to supplement the theory being taught. To address this, additional practical examples 
+could be included in the lectures, lab sessions, or assignments to help students better understand the concepts being taught.
+
+Feedback 6 suggests that some students are still struggling to understand cross-validation after the lecture. To address this, additional 
+resources or support could be provided to help students better understand this concept, such as extra explanation in the lecture, 
+additional practice problems, or one-on-one tutoring.
+
+Overall, it seems that the course is generally well-received, but there are areas where improvements could be made to better support students 
+and help them learn more effectively.
